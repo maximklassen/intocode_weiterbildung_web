@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    max-width: 500px;
+}
+
+fieldset {
+    border-radius: 0.5rem;
+    border: 1px solid #aaaaaa;
+}
+
+label {
+    margin-top: .75rem;
+}
+
+input {
+    max-width: 20em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="datetime"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="color"],
+select,
+textarea {
+    padding: 0.5em 1em;
+    border: 1px solid #aaaaaa;
+    border-radius: 0.5em;
+    background-color: #ffffff;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #aaaaaa;
+    border: 1px solid #777777;
+    border-radius: 0.5em;
+}

@@ -1,0 +1,23 @@
+nav ul {
+    display: flex;
+    font-size: 1.25rem;
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    padding: 0 2em; 
+}
+nav ul li:not(:last-child) {
+    border-right: 1px solid currentColor;
+}
+nav ul li a {
+    text-decoration: none;
+    color: currentColor;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profil-image img {
+    border-radius: 50%;
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Maxim Klassen - Webentwickler</title>
+        <link rel="stylesheet" href="/css/skills.css">
+        <link rel="stylesheet" href="/css/form.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <h1 id="start">Maxim Klassen</h1>
+        <nav>
+            <ul>
+                <li><a href="#start">Start</a></li>
+                <li><a href="#faehigketen">Fähigketen</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h2>Über mich</h2>
+        <figure class="profil-image">
+            <img src="/bilder/foto.jpg" alt="Foto von Maxim Klassen" width="200" height="200" />
+            <figcaption>Maxim Klassen, Webentwickler</figcaption>
+        </figure>
+        <p>
+            Ich bin Maxim Klassen, Webentwickler aus Walsrode mit Fokus auf PHP
+            und Laravel. Meinen Weg in der IT begann ich 2007 als Elektronik-
+            und IT-Ingenieur in Russland – zunächst fernab von Webentwicklung,
+            aber mit einem soliden Fundament in Systemadministration,
+            Datenbanken und technischer Problemlösung. Dabei reicht mein
+            Interesse an Code weiter zurück als mein offizieller Berufseinstieg:
+            Erste Gehversuche in der Webentwicklung machte ich bereits 2004
+            während des Studiums, es folgten erste eigene Projekte mit HTML,
+            JavaScript und schließlich PHP — über Jahre hinweg als intensives
+            Hobby, bevor daraus 2015 mein Beruf wurde. Seitdem, mittlerweile
+            über 10 Jahre, bin ich in diesem Feld zuhause. Zu meinen prägendsten
+            Projekten zählen Dashboards zur Analyse von Verbrauchsdaten für die
+            Wohnungswirtschaft, ein IoT-System zur automatisierten
+            Temperatursteuerung sowie die Integration eines Loyalty-Systems für
+            einen großen Einzelhändler. Mein bislang umfangreichstes eigenes
+            Projekt ist ELF CMS: ein modulares CMS-System auf Laravel-Basis, das
+            ich während meiner Selbstständigkeit (2023–2025) entwickelt und für
+            mehrere Kundenprojekte eingesetzt habe – unter anderem für
+            pbcleanvision.de. 2019 bin ich mit meiner Familie nach Deutschland
+            ausgewandert. Nach Spracherwerb und beruflicher Neuorientierung habe
+            ich mich intensiv in Laravel eingearbeitet. Im November 2025 habe
+            ich zusätzlich ein zweiwöchiges Praktikum bei einem IT-Systemhaus
+            absolviert, wo ich mich innerhalb weniger Tage eigenständig in
+            Livewire eingearbeitet und dabei ein Buchungssystem sowie ein
+            internes Ticket-System umgesetzt habe. Aktuell vertiefe ich bei
+            intoCODE (Hochschule Hannover) mein Wissen in Data Science & KI
+            (Abschlussnote 1,4) und arbeite mich in das anschließende Modul Web
+            Technology ein.
+        </p>
+        <h3 id="faehigketen">Fähigketen</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Fähigket</th>
+                    <th scope="col">Seit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>2005</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>2005</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>2008</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>2008</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>2017</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="kontakt">Kontaktformular</h3>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                min="2"
+                required
+                placeholder="Mustername"
+            />
+            <label for="email">E-Mail-Adresse</label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="muster@example.com"
+            />
+            <label for="telefon">Telefonnummer</label>
+            <input
+                type="tel"
+                name="telefon"
+                id="telefon"
+                placeholder="+49 ..."
+            />
+            <label for="betreff">Betreff</label>
+            <select name="betreff" id="betreff">
+                <option selected disabled>-- Bitte auswählen --</option>
+                <option value="frage">Frage</option>
+                <option value="beschwerde">Beschwerde</option>
+                <option value="empfehlung">Empfehlung</option>
+            </select>
+            <label for="nachricht">Nachricht</label>
+            <textarea
+                name="nachricht"
+                id="nachricht"
+                placeholder="Ihre Nachricht hier..."
+            ></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+    </body>
+</html>
