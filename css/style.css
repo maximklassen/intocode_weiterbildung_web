@@ -144,9 +144,10 @@ textarea {
 
 button {
     padding: 0.5em 1em;
-    background-color: #aaaaaa;
+    background-color: #aaaaaa;  
     border: 1px solid #777777;
     border-radius: 0.5em;
+    max-width: 18rem;
 }
 
 @media (max-width: 500px) {
