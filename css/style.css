@@ -172,7 +172,7 @@ form.contact-form {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-    max-width: 30rem;
+    max-width: 20rem;
 }
 
 fieldset {
@@ -182,10 +182,6 @@ fieldset {
 
 label {
     margin-top: 0.75rem;
-}
-
-input {
-    max-width: 20em;
 }
 
 input[type="text"],
@@ -206,14 +202,22 @@ textarea {
     border: 1px solid #aaaaaa;
     border-radius: 0.5em;
     background-color: #ffffff;
+    width: 100%;
 }
 
 button {
     padding: 0.5em 1em;
-    background-color: #aaaaaa;
-    border: 1px solid #777777;
-    border-radius: 0.5em;
-    max-width: 18rem;
+    background-color: #395776;
+    border: 1px solid #303549;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #3f678e;
 }
 
 .skills-container {
