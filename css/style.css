@@ -329,11 +329,6 @@ a.to-top:hover {
 }
 
 @media (max-width: 540px) {
-    nav ul li {
-        /* padding: 0 0.5em;
-        font-size: 1rem; */
-    }
-
     nav ul li:not(:last-child) {
         border-right: 0;
     }
