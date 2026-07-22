@@ -153,6 +153,7 @@ th,
 td {
     border: 2px solid #ffffff;
     padding: 0.3em 1em;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 th {
@@ -249,6 +250,7 @@ button:hover:before {
 }
 
 .skills-container figure {
+    width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -257,9 +259,9 @@ button:hover:before {
 }
 
 .skills-container img {
-    width: 150px;
-    height: 150px;
     transition: filter 0.3s;
+    max-width: 100%;
+    aspect-ratio: 1;
 }
 
 .skills-container figure:hover img {
@@ -307,8 +309,15 @@ a.to-top {
     font-weight: 500;
     color: #ffffff;
     text-decoration: none;
-    transform: rotate(-90deg);
     opacity: 0.7;
+}
+a.to-top::after {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    border-top: 0.25rem solid #ffffff;
+    border-right: 0.25rem solid #ffffff;
+    transform: rotate(-45deg) translate(-0.25rem, 0.25rem);
 }
 a.to-top:hover {
     opacity: 1;
@@ -325,21 +334,18 @@ a.to-top:hover {
     }
     a.to-top {
         right: 1rem;
+        bottom: 1rem;
     }
 }
 
 @media (max-width: 540px) {
-    nav ul li:not(:last-child) {
+    header nav ul li:not(:last-child) {
         border-right: 0;
     }
 
-    th,
-    td {
-        font-size: 0.9rem;
-        padding: 0.2em 0.5em;
-    }
     a.to-top {
         right: 0.5rem;
+        bottom: 0.5rem;
     }
 
     .menu-button {
