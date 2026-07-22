@@ -128,7 +128,7 @@ section {
 .profil-image figcaption {
     font-size: 0.8rem;
     font-style: italic;
-    color: #777777;
+    color: #5f5f5f;
     text-align: center;
 }
 
@@ -294,7 +294,7 @@ nav.footer-menu {
     font-size: 0.9rem;
 }
 
-a.to-top {
+.to-top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,7 +311,7 @@ a.to-top {
     text-decoration: none;
     opacity: 0.7;
 }
-a.to-top::after {
+.to-top::after {
     content: "";
     width: 1.5rem;
     height: 1.5rem;
@@ -319,7 +319,7 @@ a.to-top::after {
     border-right: 0.25rem solid #ffffff;
     transform: rotate(-45deg) translate(-0.25rem, 0.25rem);
 }
-a.to-top:hover {
+.to-top:hover {
     opacity: 1;
 }
 
@@ -343,7 +343,7 @@ a.to-top:hover {
         border-right: 0;
     }
 
-    a.to-top {
+    .to-top {
         right: 0.5rem;
         bottom: 0.5rem;
     }
