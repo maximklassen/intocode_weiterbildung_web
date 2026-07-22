@@ -93,10 +93,8 @@ nav ul li a::after {
     background-color: currentColor;
     transition: width 0.3s;
 }
-/* nav ul li a:hover {
-    text-decoration: underline;
-} */
-nav ul li a:hover::after {
+nav ul li a:hover::after,
+nav ul li a:focus::after {
     width: 100%;
 }
 
@@ -233,7 +231,8 @@ button::before {
     opacity: 0.3;
     transition: 0.3s;
 }
-button:hover {
+button:hover,
+button:focus {
     background-color: #3f678e;
 }
 button:hover:before {
